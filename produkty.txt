@@ -1,0 +1,7 @@
+O;Banan;1;20
+O;Jabłko;2;30
+W;Cebula;1;50
+O;Arbuz;10;5
+W;Kalafior;5;10
+O;Granat;12;3
+O;Winogrono;50;5
