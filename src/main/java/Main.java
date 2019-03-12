@@ -72,7 +72,10 @@ public class Main {
 //        4. Wypisz każdą z wartości na konsoli w nowej linii,
 //                Stream.forEach(Consumer<? super T> action)
 
-        Files.lines(Paths.get("produkty.txt"));
+        Files.lines(Paths.get("produkty.txt"))
+                .map(linia -> linia.split(";") [1])
+                .filter(slowo -> slowo.endsWith("o"))
+                .forEach(System.out::println);
 
 
     }
